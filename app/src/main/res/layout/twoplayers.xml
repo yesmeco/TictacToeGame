@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        style="@style/MainLinearLayoutStyle">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gamelogo"
+            android:layout_marginVertical="10dp"/>
+
+        <LinearLayout
+            style="@style/ButtonLinearLayout">
+            <Button
+                android:id="@+id/posA"
+                style="@style/buttonStyle"
+                />
+
+            <Button
+                android:id="@+id/posB"
+                style="@style/buttonStyle"
+                />
+
+            <Button
+                android:id="@+id/posC"
+                style="@style/buttonStyle"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/ButtonLinearLayout">
+            <Button
+                android:id="@+id/posD"
+                style="@style/buttonStyle"
+                />
+
+            <Button
+                android:id="@+id/posE"
+                style="@style/buttonStyle"
+                />
+
+            <Button
+                android:id="@+id/posF"
+                style="@style/buttonStyle"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/ButtonLinearLayout">
+            <Button
+                android:id="@+id/posG"
+                style="@style/buttonStyle"
+                />
+
+            <Button
+                android:id="@+id/posH"
+                style="@style/buttonStyle"
+                />
+
+            <Button
+                android:id="@+id/posI"
+                style="@style/buttonStyle"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btReset"
+            style="@style/resetButton"
+            android:text="Reset game"
+            android:layout_marginVertical="10dp"
+            android:paddingHorizontal="10dp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bacgroundApp"
+    android:gravity="center"
+    tools:context="com.example.pisa_452.tictactoegame.InfoActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logoformainactivity"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Yokairys Meran"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/github"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/githublogo"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/googleplus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/googlepluslogo"
+            android:layout_marginVertical="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

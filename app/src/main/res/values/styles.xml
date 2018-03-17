@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/backgroundButtonsColor</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/button_border</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">70dp</item>
+        <item name="android:text">""</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="MainLinearLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ButtonLinearLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="resetButton">
+        <item name="android:background">@color/red</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+</resources>
